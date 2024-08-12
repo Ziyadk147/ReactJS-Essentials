@@ -1,5 +1,4 @@
 import  {Fragment} from 'react';
-import componentsImage from './assets/components.png'
 
 import CoreConcepts from './Components/CoreConceptsFeature/CoreConcepts';
 import Header from "./Components/Header/Header"
