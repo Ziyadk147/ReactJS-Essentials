@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState , Fragment} from 'react';
 import componentsImage from './assets/components.png'
 import { CORE_CONCEPTS , EXAMPLES } from './data';
 
@@ -34,7 +34,8 @@ function App() {
 
   }
   return (
-    <div>
+    <Fragment> 
+      {/* or we can just use <> empty tags instead of Fragments in new React Projects */}
       <Header />
       <main>
         <section id="core-concepts">
@@ -99,7 +100,7 @@ function App() {
             {tabContent}
         </section>
       </main>
-    </div>
+    </Fragment>
   );
 }
 
