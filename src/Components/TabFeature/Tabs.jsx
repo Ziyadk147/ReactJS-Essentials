@@ -1,6 +1,6 @@
 
 
-export default function Tabs({children , buttons , ButtonContainer}){
+export default function Tabs({children , buttons , ButtonContainer = "menu"}){
 
     return (
         <>
